@@ -15,7 +15,7 @@ const threeSum = (nums: number[]): number[][] => {
       continue;
     }
     if (x + nums[i + 1] + nums[i + 2] > 0) break; // 优化一
-    if (x + nums[right - 1] + nums[right - 2] < 0) break; // 优化二
+    if (x + nums[right - 1] + nums[right - 2] < 0) continue; // 优化二
     while (left < right) {
       let sum = x + nums[left] + nums[right];
       if (sum > 0) {
