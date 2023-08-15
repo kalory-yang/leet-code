@@ -6,4 +6,4 @@
 
 安装 code runner 插件就可以运行了
 我是kalory 我提 commit 了一次
-模拟代码冲突
+rebase 从 origin
